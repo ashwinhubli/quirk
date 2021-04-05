@@ -37,11 +37,11 @@ export const newPopsUp = ({ fullHeight, hiddenHeight, popUpScale }) =>
     },
     full: {
       height: fullHeight,
-      transition: { type: "spring", stiffness: 150 },
+      transition: { type: "spring", stiffness: 100 },
     },
     hiddenWiggle: {
       height: hiddenHeight * 1,
       transition: { type: "spring", stiffness: 100 },
     },
-    hidden: { height: hiddenHeight * 0.8 },
+    hidden: { height: hiddenHeight * 1.8 },
   });
